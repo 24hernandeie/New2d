@@ -12506,6 +12506,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f39426a001c71d84999be2ee63c7d322, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &967161547
 GameObject:
   m_ObjectHideFlags: 0
@@ -13384,6 +13385,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+--- !u!1001 &1180513882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -62.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389017111668870662, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523039205612139917, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+      propertyPath: m_Name
+      value: EVil Wizard
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3cc19da7a5bf8dc4fbfe45e271868929, type: 3}
+>>>>>>> Stashed changes
 --- !u!1001 &1208270812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15346,6 +15406,7 @@ SceneRoots:
   - {fileID: 1468680930}
   - {fileID: 852900032}
   - {fileID: 816156608}
+<<<<<<< Updated upstream
   - {fileID: 1172400300}
   - {fileID: 1029774970}
   - {fileID: 967161549}
@@ -15378,3 +15439,6 @@ SceneRoots:
   - {fileID: 782700709}
   - {fileID: 1144031155}
   - {fileID: 1619549485}
+=======
+  - {fileID: 1180513882}
+>>>>>>> Stashed changes
