@@ -30,7 +30,7 @@ public class playerScript : MonoBehaviour
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
-            rb.velcoity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
         Flip();
@@ -45,14 +45,14 @@ public class playerScript : MonoBehaviour
 
     private bool IsGrounded()
     {
-        return Physics2D.OverLapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
     private void Flip()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f )
         {
-            isFacingRight = !isFacingRight
+            isFacingRight = !isFacingRight;
             Vector3 localScale = transform.localScale;
             transform.localScale = localScale;
         }
