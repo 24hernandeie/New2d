@@ -30,7 +30,7 @@ public class playerScript : MonoBehaviour
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
-            rb.velcoity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
         Flip();
@@ -52,7 +52,7 @@ public class playerScript : MonoBehaviour
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f )
         {
-            isFacingRight = !isFacingRight
+            isFacingRight = !isFacingRight;
             Vector3 localScale = transform.localScale;
             transform.localScale = localScale;
         }
