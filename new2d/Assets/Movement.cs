@@ -11,7 +11,6 @@ public class Movement : MonoBehaviour
     
     float horizontalMove = 0f;
     bool jump = false;
-    bool crouch = false;
 
     // Start is called before the first frame update
     void Start()
@@ -30,14 +29,7 @@ public class Movement : MonoBehaviour
         {
             jump = true;
         }   
-        if (Input.GetButtonDown("Crouch"))
-        {
-            Crouch = true;
-        }
-        else if (Input.GetButtonUp("crouch"))
-        {
-            crouch = flse;
-        }
+
     }
 
     void FixedUpdate ()
