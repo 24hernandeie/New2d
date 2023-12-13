@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class playerScript : MonoBehaviour
 {   
+    public Animator animator;
     private float horizontal;
     private float speed = 8f;
     private float jumpingPower = 16f;
@@ -21,6 +22,8 @@ public class playerScript : MonoBehaviour
     {
 
         horizontal = Input.GetAxisRaw("Horizontal");
+
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
